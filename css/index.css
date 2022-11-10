@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'mtn_brighter_sanslight';
+    src: url('font/5a735ad00cad6dab35cc9f3910e9fc65-webfont.woff2') format('woff2'),
+         url('font/5a735ad00cad6dab35cc9f3910e9fc65-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'mtn_brighter_sanslight';
+    width: 100%;
+}
+.navbar {
+    background-color: #FFCC00;
+    z-index: 200;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+}
+.container_fluide li {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    font-family: 'mtn_brighter_sanslight';
+    text-align: left;
+}
+/* .nav-link {
+    font-size: 20px;
+} */
+/* #carouselExampleSlidesOnly{
+    position: absolute;
+    top: -120px;
+} */
+.d-block {
+    width: 400px;
+    height: 600px;
+    margin-top: -20px;
+}
+.ktg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 490px;
+    width: 100%;
+    z-index: 100;
+}
+.b1 {
+    position: absolute;
+    z-index: 500;
+    width: 80px;
+    height: 80px;
+    bottom: 210px;
+    left: 62%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.b2 {
+    position: absolute;
+    z-index: 500;
+    width: 80px;
+    height: 80px;
+    bottom: 210px;
+    left: 52%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.b3 {
+    position: absolute;
+    z-index: 500;
+    width: 80px;
+    height: 80px;
+    bottom: 210px;
+    left: 42%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.b4{
+    position: absolute;
+    z-index: 500;
+    width: 80px;
+    height: 80px;
+    bottom: 210px;
+    left: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.svg1{
+    fill: #FFCC00;
+  position: absolute;
+  width: 100%;
+  top: 475px;
+    z-index: 70;
+}
+.svg2 {
+    position: absolute;
+    z-index: 120;
+    width: 100%;
+    top: 722px;
+    fill: white;
+}
+.img1{
+    width: 100%;
+    height: 60px;
+}
+.img2{
+    width: 100%;
+    height: 60px;
+}
+.img3{
+    width: 100%;
+    height: 50px;
+}
+.img4{
+    width: 100%;
+    height: 70px;
+}
+/* .b11 {
+    width: 70%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b12 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b13 {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b14 {
+    width: 50%;
+    height: 35px;
+    background-color: #FFCC00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.b1:hover,.b2:hover,.b3:hover,.b4:hover{
+    background-color: rgb(233, 228, 228);
+
+}
+.bt1 {
+    width: 17%;
+    position: absolute;
+    z-index: 500;
+    background-color: #FFCC00;
+    border: 2px solid white;
+    bottom: 100px;
+    text-align: left;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    left: 32%;
+    font-weight: bold;
+}
+.bt2 {
+    width: 17%;
+    position: absolute;
+    z-index: 500;
+    background-color: #FFCC00;
+    border: 2px solid white;
+    bottom: 100px;
+    text-align: left;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    right: 32%;
+    font-weight: bold;
+}
+.bt1:hover, .bt2:hover{
+    background-color:  rgb(233, 228, 228);
+}
+.fa-solid {
+    position: absolute;
+    z-index: 12000;
+    right: 2%;
+}
+.Particulier{
+    position: absolute;
+    top: 50px;
+    left: 32%;
+    font-weight: bold;
+    font-family: 'mtn_brighter_sanslight';
+}
+.MoMo{
+    position: absolute;
+    top: 50px;
+    left: 43%;
+    font-weight: bold;
+    font-family: 'mtn_brighter_sanslight';
+}
+.Business{
+    position: absolute;
+    top: 50px;
+    right: 43.1%;
+    font-weight: bold;
+    font-family: 'mtn_brighter_sanslight';
+}
+.Play{
+    position: absolute;
+    top: 50px;
+    right: 34.4%;
+    font-weight: bold;
+    font-family: 'mtn_brighter_sanslight';
+}
+.TGV {
+    position: absolute;
+    top: 150vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-control-prev {
+    left:  -39px;opacity: 1;
+    background-color:#333;
+}
+.carousel-control-next {
+    right: -45px;opacity: 1;
+     background-color:#333;
+    }
+.seconde_section{
+    position: absolute;
+    background-color: white;
+    top: 129vh;
+    left: 0;
+    right: 0;
+}
+.seconde_section h4 {
+    font-size: 30px;
+    color: black;
+}
+.c10{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.c10 h4 {
+    
+
+}
+.c10 img {
+    position: absolute;
+    margin-top: 20%;
+}
+
+/* footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
